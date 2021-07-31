@@ -1,0 +1,20 @@
+.nav{
+    position: fixed;
+    top: 0;
+    /* display: flex; */
+    z-index: 10000;
+    align-items: center;
+    width: 100%;
+    opacity: 0.8;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.nav_black{
+    background-color: #111;
+}
+
+img{
+    color: #fff;
+    z-index: 100 ;
+}
