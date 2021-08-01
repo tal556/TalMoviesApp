@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import '../style/Banner.css'
 import fetchAxios from "../axios";
 import requests from "../requests";
-import Button from 'react-bootstrap/Button';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Banner() {
