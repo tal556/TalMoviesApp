@@ -19,6 +19,7 @@ function App() {
       <Row title='Romance Movies' fetchUrl={requests.fetchRomanceMovies} isLargeRow={false}/>
       <Row title='Docomentry Movies' fetchUrl={requests.fetchDocumentaries} isLargeRow={false}/>
       <Row title='Upcoming Movies' fetchUrl={requests.fetchUpcoming} isLargeRow={false}/>
+      <Row title='Popular Tv Shows' fetchUrl={requests.fetchTvPopularShows} isLargeRow={false}/>
       
 
       <Footer/>
